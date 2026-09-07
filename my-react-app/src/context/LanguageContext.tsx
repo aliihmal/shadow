@@ -6,7 +6,7 @@ import {
   type ReactNode,
 } from "react";
 
-import { translations } from "../Data/translations";
+import { translations } from "../data/translations";
 
 type Language = "en" | "ar";
 

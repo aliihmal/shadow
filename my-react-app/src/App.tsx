@@ -3,7 +3,6 @@ import "./styles/tokens.css";
 
 import AboutPage from "./components/AboutPage";
 import CategoriesPage from "./components/CategoriesPage";
-import MachineDetailPage from "./components/MachineDetailPage";
 
 import ArabicBreadPage from "./pages/arabic/ArabicPitaBread";
 import BreadPitaDescriptionPage from "./pages/arabic/BreadPitaDescriptionPage";
