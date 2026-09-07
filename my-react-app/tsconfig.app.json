@@ -16,6 +16,10 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
+    /* JSON imports */
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+
     /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
