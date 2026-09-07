@@ -1,0 +1,221 @@
+.machine-detail {
+  padding: 150px 0 90px;
+}
+
+.machine-detail .breadcrumb {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.machine-detail .breadcrumb a:hover {
+  color: var(--copper);
+}
+
+.machine-detail .breadcrumb span {
+  margin: 0 6px;
+  opacity: 0.6;
+}
+
+.machine-detail__layout {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 54px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.machine-detail__img {
+  min-height: 420px;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid var(--line);
+}
+
+.machine-detail__info .eyebrow {
+  color: var(--copper);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.machine-detail__info h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(28px, 3.6vw, 42px);
+  margin: 0 0 20px;
+  line-height: 1.1;
+}
+
+.machine-detail__lead {
+  color: #565246;
+  font-size: 15.5px;
+  margin: 0 0 28px;
+}
+
+.machine-detail .btn {
+  display: inline-block;
+  padding: 14px 26px;
+  background: var(--black);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  border-radius: var(--radius);
+}
+
+.machine-detail .btn:hover {
+  background: var(--copper);
+}
+
+/* Specs section */
+.specs__head {
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.specs__eyebrow {
+  display: block;
+  color: var(--copper);
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.specs__head h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0;
+}
+
+/* Signature element: an industrial machine nameplate rendering the specs */
+.nameplate {
+  position: relative;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 46px;
+  background:
+    linear-gradient(135deg, #d9d4c6 0%, #f2efe6 28%, #cfc9ba 55%, #eeeadf 78%, #d3cebf 100%),
+    linear-gradient(#c7c1b1, #c7c1b1);
+  background-blend-mode: normal;
+  border: 1px solid #b7b09c;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.12),
+    0 20px 40px rgba(23, 21, 15, 0.14);
+}
+
+.nameplate__rivet {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #fff 0%, #a9a190 45%, #6c6656 100%);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+.nameplate__rivet--tl {
+  top: 14px;
+  left: 14px;
+}
+.nameplate__rivet--tr {
+  top: 14px;
+  right: 14px;
+}
+.nameplate__rivet--bl {
+  bottom: 14px;
+  left: 14px;
+}
+.nameplate__rivet--br {
+  bottom: 14px;
+  right: 14px;
+}
+
+.nameplate__title {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(23, 21, 15, 0.25);
+}
+
+.nameplate__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 34px;
+}
+
+.nameplate__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  padding-bottom: 9px;
+  border-bottom: 1px dashed rgba(23, 21, 15, 0.22);
+}
+
+.nameplate__label {
+  color: #59543f;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  font-size: 10.5px;
+  font-weight: 600;
+  padding-top: 2px;
+}
+
+.nameplate__value {
+  color: var(--ink);
+  font-weight: 600;
+  text-align: right;
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+@media (max-width: 850px) {
+  .machine-detail__layout {
+    grid-template-columns: 1fr;
+  }
+  .machine-detail__img {
+    min-height: 300px;
+  }
+  .nameplate__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .machine-detail {
+    padding: 120px 0 60px;
+  }
+  .nameplate {
+    padding: 30px 24px;
+  }
+  .nameplate__row {
+    flex-direction: column;
+    gap: 3px;
+  }
+  .nameplate__value {
+    text-align: left;
+  }
+}
+
+
+.dough-divider {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}

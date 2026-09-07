@@ -1,0 +1,124 @@
+.pizza-description {
+  padding: 40px 0 100px;
+}
+
+.pizza-description__back {
+  margin-bottom: 50px;
+}
+
+.pizza-description__back a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.pizza-description__hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+}
+
+/* Gallery */
+
+.pizza-gallery__main {
+  height: 550px;
+  background: #f6f6f6;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.pizza-gallery__main img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.pizza-gallery__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.pizza-gallery__arrow--left {
+  left: 15px;
+}
+
+.pizza-gallery__arrow--right {
+  right: 15px;
+}
+
+.pizza-gallery__thumbnails {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+  overflow-x: auto;
+}
+
+.pizza-gallery__thumbnail {
+  width: 85px;
+  height: 70px;
+  padding: 5px;
+  background: #f6f6f6;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.pizza-gallery__thumbnail.active {
+  border: 2px solid #111;
+}
+
+.pizza-gallery__thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Description */
+
+.pizza-description__content > span {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.pizza-description__content h1 {
+  font-size: clamp(42px, 6vw, 75px);
+  line-height: 1;
+  margin: 15px 0 30px;
+}
+
+.pizza-description__content p {
+  line-height: 1.9;
+  white-space: pre-line;
+  margin-bottom: 35px;
+}
+
+/* Responsive */
+
+@media (max-width: 800px) {
+  .pizza-description {
+    padding: 30px 20px 70px;
+  }
+
+  .pizza-description__hero {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .pizza-gallery__main {
+    height: 350px;
+  }
+}

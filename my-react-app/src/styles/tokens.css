@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Montserrat:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&family=Tajawal:wght@400;500;700;800&display=swap");
+
+:root {
+  /* colors */
+  --black: #0b0b0a;
+  --charcoal: #17150f;
+  --gold: #c9a45c;
+  --gold-bright: #ddbc7c;
+  --copper: #a15c34;
+  --cream: #f7f4ed;
+  --paper: #efe8d9;
+  --muted: #8a8578;
+  --ink: #201d17;
+  --white: #ffffff;
+  --line: #e4ddcc;
+  --blue: #2569c9;
+  --blue-dark: #1c52a0;
+  --navy: #10182b;
+
+  /* type */
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-body: "Montserrat", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+  --font-arabic: "Tajawal", "Segoe UI", Tahoma, sans-serif;
+
+  /* layout */
+  --container: min(1160px, 92%);
+  --radius: 2px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--cream);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: var(--container);
+  margin: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* RTL support (Arabic) */
+[dir="rtl"] body,
+[dir="rtl"] {
+  font-family: var(--font-arabic);
+}
+
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4 {
+  font-family: var(--font-arabic);
+}

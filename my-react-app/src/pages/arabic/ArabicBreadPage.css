@@ -1,0 +1,527 @@
+/* =========================================
+   HERO
+========================================= */
+
+.bread-hero {
+  position: relative;
+  overflow: hidden;
+
+  padding: 90px 0;
+
+  background:
+    radial-gradient(
+      circle at 85% 30%,
+      rgba(0, 110, 255, 0.20),
+      transparent 35%
+    ),
+    linear-gradient(
+      135deg,
+      #02050a 0%,
+      #061326 55%,
+      #071a33 100%
+    );
+
+  color: #ffffff;
+}
+
+.bread-hero__container {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 70px;
+
+  align-items: center;
+
+  min-height: 560px;
+}
+
+
+/* =========================================
+   HERO CONTENT
+========================================= */
+
+.bread-hero__content {
+  position: relative;
+  z-index: 2;
+}
+
+.bread-hero__eyebrow {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 25px;
+
+  text-transform: uppercase;
+
+  letter-spacing: 2.5px;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  color: #6ea8ff;
+}
+
+.bread-hero__line {
+  display: block;
+
+  width: 45px;
+
+  height: 2px;
+
+  background: #6ea8ff;
+}
+
+.bread-hero h1 {
+  max-width: 700px;
+
+  margin: 0 0 30px;
+
+  font-size: clamp(48px, 6vw, 82px);
+
+  line-height: 0.98;
+
+  letter-spacing: -2px;
+
+  color: #ffffff;
+}
+
+.bread-hero p {
+  max-width: 650px;
+
+  margin: 0;
+
+  font-size: 18px;
+
+  line-height: 1.8;
+
+  color: #b8c9df;
+
+  opacity: 1;
+}
+
+
+/* =========================================
+   HERO META
+========================================= */
+
+.bread-hero__meta {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+  margin-top: 35px;
+
+  font-size: 12px;
+
+  text-transform: uppercase;
+
+  letter-spacing: 1.5px;
+
+  font-weight: 600;
+
+  color: #9db5d3;
+
+  opacity: 1;
+}
+
+.bread-hero__dot {
+  font-size: 18px;
+
+  color: #4f91df;
+}
+
+
+/* =========================================
+   HERO IMAGE
+========================================= */
+
+.bread-hero__visual {
+  position: relative;
+
+  height: 520px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.bread-hero__image-wrapper {
+  position: relative;
+
+  width: 100%;
+
+  height: 100%;
+
+  overflow: hidden;
+
+  background: #102f54;
+
+  border: 1px solid #1d4775;
+}
+
+.bread-hero__image-wrapper::after {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background: linear-gradient(
+    135deg,
+    rgba(70, 140, 220, 0.12),
+    rgba(0, 0, 0, 0.25)
+  );
+
+  pointer-events: none;
+}
+
+.bread-hero__image-wrapper img {
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+
+  transition: transform 0.7s ease;
+}
+
+.bread-hero__image-wrapper:hover img {
+  transform: scale(1.03);
+}
+
+
+/* =========================================
+   HERO NUMBER
+========================================= */
+
+.bread-hero__number {
+  position: absolute;
+
+  right: -25px;
+
+  bottom: -25px;
+
+  width: 100px;
+
+  height: 100px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: #1764a5;
+
+  color: #ffffff;
+
+  font-size: 25px;
+
+  font-weight: 600;
+
+  letter-spacing: 2px;
+
+  border: 1px solid #4c91d5;
+}
+
+
+/* =========================================
+   MACHINES SECTION
+   NORMAL / WHITE BACKGROUND
+========================================= */
+
+.bread-machines {
+  padding: 110px 0;
+
+  background: #ffffff;
+
+  color: #071a33;
+}
+
+
+/* =========================================
+   SECTION HEADER
+========================================= */
+
+.bread-machines__head {
+  display: flex;
+
+  align-items: flex-end;
+
+  justify-content: space-between;
+
+  gap: 40px;
+
+  margin-bottom: 55px;
+}
+
+.bread-machines__head > div > span {
+  display: block;
+
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  color: #1764a5;
+}
+
+.bread-machines__head h2 {
+  margin: 12px 0 0;
+
+  font-size: clamp(35px, 5vw, 58px);
+
+  line-height: 1;
+
+  letter-spacing: -1.5px;
+
+  color: #071a33;
+}
+
+.bread-machines__head p {
+  max-width: 300px;
+
+  margin: 0;
+
+  line-height: 1.7;
+
+  color: #66788c;
+
+  opacity: 1;
+}
+
+
+/* =========================================
+   MACHINE GRID
+========================================= */
+
+.bread-machines__grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 25px;
+}
+
+
+/* =========================================
+   MACHINE CARD
+========================================= */
+
+.bread-machine-box {
+  display: block;
+
+  text-decoration: none;
+
+  color: inherit;
+
+  border: 1px solid #dce3ea;
+
+  background: #ffffff;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.bread-machine-box:hover {
+  transform: translateY(-7px);
+
+  border-color: #4d91e8;
+
+  box-shadow:
+    0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================
+   CARD IMAGE
+========================================= */
+
+.bread-machine-box__image {
+  height: 280px;
+
+  padding: 30px;
+
+  background: #f5f7f9;
+
+  overflow: hidden;
+}
+
+.bread-machine-box__image img {
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: contain;
+
+  transition: transform 0.5s ease;
+}
+
+.bread-machine-box:hover
+.bread-machine-box__image img {
+  transform: scale(1.05);
+}
+
+
+/* =========================================
+   CARD CONTENT
+========================================= */
+
+.bread-machine-box__content {
+  padding: 28px;
+}
+
+.bread-machine-box__content h3 {
+  margin: 0 0 13px;
+
+  font-size: 23px;
+
+  line-height: 1.2;
+
+  color: #071a33;
+}
+
+.bread-machine-box__content p {
+  margin: 0 0 25px;
+
+  line-height: 1.7;
+
+  color: #66788c;
+
+  opacity: 1;
+}
+
+.bread-machine-box__content span {
+  display: inline-block;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  color: #1764a5;
+
+  transition:
+    transform 0.25s ease,
+    color 0.25s ease;
+}
+
+.bread-machine-box:hover
+.bread-machine-box__content span {
+  transform: translateX(5px);
+
+  color: #0b5aa0;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+  .bread-hero__container {
+    grid-template-columns: 1fr;
+
+    gap: 50px;
+  }
+
+  .bread-hero__visual {
+    height: 450px;
+  }
+
+  .bread-hero__content {
+    max-width: 800px;
+  }
+
+  .bread-machines__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 650px) {
+
+  .bread-hero {
+    padding: 65px 20px 70px;
+  }
+
+  .bread-hero__container {
+    min-height: auto;
+
+    gap: 40px;
+  }
+
+  .bread-hero h1 {
+    font-size: 48px;
+
+    letter-spacing: -1px;
+  }
+
+  .bread-hero p {
+    font-size: 16px;
+  }
+
+  .bread-hero__meta {
+    flex-wrap: wrap;
+
+    gap: 8px 12px;
+  }
+
+  .bread-hero__visual {
+    height: 330px;
+  }
+
+  .bread-hero__number {
+    right: -10px;
+
+    bottom: -10px;
+
+    width: 75px;
+
+    height: 75px;
+
+    font-size: 20px;
+  }
+
+  .bread-machines {
+    padding: 75px 20px;
+  }
+
+  .bread-machines__head {
+    display: block;
+
+    margin-bottom: 40px;
+  }
+
+  .bread-machines__head p {
+    margin-top: 20px;
+  }
+
+  .bread-machines__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bread-machine-box__image {
+    height: 280px;
+  }
+}

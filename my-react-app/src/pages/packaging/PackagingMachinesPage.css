@@ -1,0 +1,228 @@
+/* =========================================
+   HERO
+========================================= */
+
+.packaging-hero {
+  position: relative;
+  overflow: hidden;
+
+  padding: 120px 0 90px;
+
+  background:
+    radial-gradient(
+      circle at 85% 30%,
+      rgba(0, 110, 255, 0.20),
+      transparent 35%
+    ),
+    linear-gradient(
+      135deg,
+      #02050a 0%,
+      #061326 55%,
+      #071a33 100%
+    );
+
+  color: #ffffff;
+}
+
+.packaging-hero span {
+  display: block;
+
+  margin-bottom: 15px;
+
+  font-size: 14px;
+
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+
+  color: #6ea8ff;
+}
+
+.packaging-hero h1 {
+  margin: 0 0 20px;
+
+  font-size: 52px;
+
+  color: #ffffff;
+}
+
+.packaging-hero p {
+  max-width: 700px;
+
+  font-size: 18px;
+
+  line-height: 1.7;
+
+  color: #b8c9df;
+}
+
+
+/* =========================================
+   MACHINES SECTION
+   NORMAL WHITE BACKGROUND
+========================================= */
+
+.packaging-machines {
+  padding: 100px 0;
+
+  background: #ffffff;
+
+  color: #071a33;
+}
+
+
+/* =========================================
+   SECTION HEADER
+========================================= */
+
+.packaging-machines__head {
+  margin-bottom: 50px;
+}
+
+.packaging-machines__head span {
+  font-size: 14px;
+
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+
+  color: #1764a5;
+}
+
+.packaging-machines__head h2 {
+  margin: 10px 0 15px;
+
+  font-size: 38px;
+
+  color: #071a33;
+}
+
+.packaging-machines__head p {
+  font-size: 17px;
+
+  color: #666;
+}
+
+
+/* =========================================
+   MACHINE GRID
+========================================= */
+
+.packaging-machines__grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 30px;
+}
+
+
+/* =========================================
+   MACHINE CARD
+========================================= */
+
+.packaging-machine-box {
+  display: block;
+
+  text-decoration: none;
+
+  color: inherit;
+
+  border: 1px solid #e5e5e5;
+
+  background: #fff;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.packaging-machine-box:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================================
+   CARD IMAGE
+========================================= */
+
+.packaging-machine-box__image {
+  width: 100%;
+
+  height: 350px;
+
+  overflow: hidden;
+
+  background: #f6f6f6;
+}
+
+.packaging-machine-box__image img {
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: contain;
+}
+
+
+/* =========================================
+   CARD CONTENT
+========================================= */
+
+.packaging-machine-box__content {
+  padding: 30px;
+}
+
+.packaging-machine-box__content h3 {
+  margin: 0 0 12px;
+
+  font-size: 25px;
+
+  color: #071a33;
+}
+
+.packaging-machine-box__content p {
+  margin: 0 0 20px;
+
+  line-height: 1.6;
+
+  color: #666;
+}
+
+.packaging-machine-box__content span {
+  font-weight: 600;
+
+  color: #1764a5;
+}
+
+
+/* =========================================
+   MOBILE / TABLET
+========================================= */
+
+@media (max-width: 800px) {
+
+  .packaging-hero {
+    padding: 80px 0 60px;
+  }
+
+  .packaging-hero h1 {
+    font-size: 38px;
+  }
+
+  .packaging-machines {
+    padding: 70px 0;
+  }
+
+  .packaging-machines__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .packaging-machine-box__image {
+    height: 280px;
+  }
+
+}

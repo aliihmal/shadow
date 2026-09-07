@@ -1,0 +1,1440 @@
+[
+{
+"id": "arabic-bread",
+"name": {
+"en": "Automatic Pita Arabic Line",
+"ar": "خط إنتاج الخبز العربي الأوتوماتيكي"
+},
+"tagline": {
+"en": "Single, double, triple & quadruple pita production lines",
+"ar": "خطوط إنتاج الخبز العربي المفردة والمزدوجة والثلاثية والرباعية"
+},
+"shortDescription": {
+"en": "Fully automatic Arabic pita bread production lines available in single, double, triple and quadruple output configurations. Pita Bread production lines offered are fully automatic, whereas they’re configured with respect to the customer’s available site area and budget. We offers several different models and designs that have the capacity to produce from 2,500 up to 12,500 loaves per hour, with a diameter varying between 12 and 38 centimeters per loaf. Production lines are manufactured mainly according to client requirements and conditions imposed in each country.",
+"ar": "خطوط إنتاج آلية بالكامل للخبز العربي متوفرة بتكوينات إنتاج مفردة ومزدوجة وثلاثية ورباعية. يتم تصميم خطوط إنتاج الخبز العربي بشكل كامل وفقًا للمساحة المتوفرة لدى العميل والميزانية المحددة. نوفر عدة نماذج وتصاميم مختلفة بطاقة إنتاجية تتراوح بين 2500 و12500 رغيف في الساعة، وبأقطار تتراوح بين 12 و38 سنتيمترًا للرغيف الواحد. ويتم تصنيع خطوط الإنتاج بشكل أساسي وفقًا لمتطلبات العميل والظروف والمعايير المعمول بها في كل دولة."
+},
+"image": "/arabicBread.png",
+"machines": [
+{
+"id": "DoughDivider",
+"name": {
+"en": "Dough Divider",
+"ar": "مقسّم العجين"
+},
+"shortDescription": {
+"en": "Automatic machine for accurately dividing dough into equal portions for Arabic pita bread production.",
+"ar": "آلة أوتوماتيكية لتقسيم العجين بدقة إلى حصص متساوية لإنتاج الخبز العربي."
+},
+"longDescription": {
+"en": "The automatic Dough Divider is designed to divide prepared dough into equal portions with consistent weight and size. It is the first stage of the Arabic pita bread production process and receives the prepared dough through a stainless steel hopper. The machine continuously divides the dough into accurately measured dough balls, helping maintain uniformity throughout the production line. The adjustable system allows the operator to control the dough-ball weight according to the required loaf size. The machine is suitable for continuous bakery production and can be configured for different production capacities.",
+"ar": "تم تصميم مقسّم العجين الأوتوماتيكي لتقسيم العجين المحضر إلى حصص متساوية من حيث الوزن والحجم. ويُعد المرحلة الأولى في عملية إنتاج الخبز العربي، حيث يستقبل العجين المحضر من خلال قادوس مصنوع من الفولاذ المقاوم للصدأ. تقوم الآلة بتقسيم العجين بشكل مستمر إلى كرات ذات أوزان دقيقة، مما يساعد على الحفاظ على التجانس طوال خط الإنتاج. يتيح النظام القابل للتعديل التحكم في وزن كرة العجين وفقًا لحجم الرغيف المطلوب. وتناسب الآلة عمليات الإنتاج المستمر في المخابز ويمكن تهيئتها وفقًا لطاقات إنتاجية مختلفة."
+},
+"image": "/DoughDividerArabicPitaOne.jpeg",
+"images": [
+"/DoughDividerArabicPitaOne.jpeg",
+"/DoughDividerArabicPita.jpeg",
+"/DoughDividerArabicPitaTow.jpeg",
+"/DoughDividerArabicPitaThree.jpeg"
+],
+"descriptionImage": "/DoughDividerDesc.jpeg",
+"characteristics": [
+{
+"label": {
+"en": "General Dimension",
+"ar": "الأبعاد العامة"
+},
+"value": "single: 170X75X160 double: 170X85X160"
+},
+{
+"label": {
+"en": "Production capacity",
+"ar": "الطاقة الإنتاجية"
+},
+"value": "1,700–2,700 loaves / hour"
+},
+{
+"label": {
+"en": "Loaf diameter",
+"ar": "قطر الرغيف"
+},
+"value": "14–38 cm"
+},
+{
+"label": {
+"en": "Line width",
+"ar": "عرض الخط"
+},
+"value": "40 cm"
+},
+{
+"label": {
+"en": "Electrical power",
+"ar": "الطاقة الكهربائية"
+},
+"value": "12 kW"
+},
+{
+"label": {
+"en": "Minimum space",
+"ar": "المساحة المطلوبة"
+},
+"value": "200 m²"
+},
+{
+"label": {
+"en": "Automation",
+"ar": "الأتمتة"
+},
+"value": "Fully automatic"
+}
+]
+},
+{
+"id": "Primary Proofer",
+"name": {
+"en": "Primary Proofer",
+"ar": "جهاز التخمير الأولي"
+},
+"shortDescription": {
+"en": "Automatic primary proofing system that allows divided dough portions to rest and develop before flattening.",
+"ar": "نظام أوتوماتيكي للتخمير الأولي يسمح لقطع العجين بالراحة والتخمّر قبل مرحلة الفرد."
+},
+"longDescription": {
+"en": "The Primary Proofer is designed to provide the necessary resting and fermentation time for divided dough portions before they enter the flattening stage. After the dough is divided into equal portions, the pieces are transferred through the controlled proofing system. This stage allows the dough to relax and develop the required properties for smooth and consistent flattening. The proofing process helps improve dough handling and contributes to uniform pita bread production. The system can be integrated into automatic Arabic bread production lines and adjusted according to production requirements.",
+"ar": "تم تصميم جهاز التخمير الأولي لتوفير الوقت اللازم لراحة وتخمير قطع العجين بعد تقسيمها وقبل انتقالها إلى مرحلة الفرد. بعد تقسيم العجين إلى حصص متساوية، يتم نقل القطع عبر نظام تخمير يتم التحكم فيه. تسمح هذه المرحلة للعجين بالراحة واكتساب الخصائص المناسبة لعملية الفرد بشكل سلس ومتجانس. يساعد التخمير الأولي على تحسين قابلية التعامل مع العجين ويساهم في إنتاج خبز عربي متجانس. يمكن دمج النظام ضمن خطوط الإنتاج الأوتوماتيكية للخبز العربي وضبطه وفقًا لمتطلبات الإنتاج."
+},
+"image": "/PrimaryProoferArabicPita.jpeg",
+"images": [
+"/PrimaryProoferArabicPita.jpeg",
+"/PrimaryProoferPitaArabic.jpeg"
+],
+"descriptionImage": "/Ma5marAwali.jpeg",
+"characteristics": [
+{
+"label": {
+"en": "Output",
+"ar": "الإنتاج"
+},
+"value": "Double"
+},
+{
+"label": {
+"en": "Production capacity",
+"ar": "الطاقة الإنتاجية"
+},
+"value": "3,500–5,500 loaves / hour"
+},
+{
+"label": {
+"en": "Loaf diameter",
+"ar": "قطر الرغيف"
+},
+"value": "14–38 cm"
+},
+{
+"label": {
+"en": "Line width",
+"ar": "عرض الخط"
+},
+"value": "60–80 cm"
+},
+{
+"label": {
+"en": "Electrical power",
+"ar": "الطاقة الكهربائية"
+},
+"value": "16 kW"
+},
+{
+"label": {
+"en": "Minimum space",
+"ar": "المساحة المطلوبة"
+},
+"value": "200 m²"
+},
+{
+"label": {
+"en": "Automation",
+"ar": "الأتمتة"
+},
+"value": "Fully automatic"
+}
+]
+},
+{
+"id": "Dough Flattener",
+"name": {
+"en": "Dough Flattener",
+"ar": "آلة فرد العجين"
+},
+"shortDescription": {
+"en": "Automatic dough flattening machine that shapes proofed dough portions into uniform pita bread discs.",
+"ar": "آلة أوتوماتيكية لفرد العجين وتشكيل قطع العجين المخمّرة إلى أرغفة خبز عربي متجانسة."
+},
+"longDescription": {
+"en": "The Dough Flattener is designed to flatten and shape proofed dough portions into thin, evenly sized discs suitable for Arabic pita bread production. After the primary proofing stage, the dough portions are transferred to the flattening system, where they are gradually pressed and formed to the required thickness and diameter. The machine provides consistent shaping throughout the production process and can be adjusted according to the required pita bread size. Its automatic operation allows it to work continuously as part of a complete Arabic bread production line.",
+"ar": "تم تصميم آلة فرد العجين لفرد وتشكيل قطع العجين المخمّرة إلى أرغفة رقيقة ومتساوية مناسبة لإنتاج الخبز العربي. بعد مرحلة التخمير الأولي، تنتقل قطع العجين إلى نظام الفرد حيث يتم ضغطها وتشكيلها تدريجيًا للوصول إلى السماكة والقطر المطلوبين. توفر الآلة تشكيلًا متجانسًا طوال عملية الإنتاج ويمكن ضبطها وفقًا لحجم الخبز العربي المطلوب. ويسمح تشغيلها الأوتوماتيكي بالعمل بشكل مستمر ضمن خط إنتاج متكامل للخبز العربي."
+},
+"image": "/FlatenerArabiPitaOne.jpeg",
+"images": [
+"/FlatenerArabiPitaOne.jpeg",
+"/FlatenerArabiPitaTow.jpeg",
+"/FlatenerArabicPitaThree.jpeg",
+"/FlatenerArabicPitaFour.jpeg"
+],
+"descriptionImage": "/rakak3agin.jpeg",
+"characteristics": [
+{
+"label": {
+"en": "Output",
+"ar": "الإنتاج"
+},
+"value": "Triple"
+},
+{
+"label": {
+"en": "Production capacity",
+"ar": "الطاقة الإنتاجية"
+},
+"value": "6,000–9,000 loaves / hour"
+},
+{
+"label": {
+"en": "Loaf diameter",
+"ar": "قطر الرغيف"
+},
+"value": "14–30 cm"
+},
+{
+"label": {
+"en": "Line width",
+"ar": "عرض الخط"
+},
+"value": "100 cm"
+},
+{
+"label": {
+"en": "Electrical power",
+"ar": "الطاقة الكهربائية"
+},
+"value": "16 kW"
+},
+{
+"label": {
+"en": "Minimum space",
+"ar": "المساحة المطلوبة"
+},
+"value": "200 m²"
+},
+{
+"label": {
+"en": "Automation",
+"ar": "الأتمتة"
+},
+"value": "Fully automatic"
+}
+]
+},
+{
+"id": "Final Proofer",
+"name": {
+"en": "Final Proofer",
+"ar": "جهاز التخمير النهائي"
+},
+"shortDescription": {
+"en": "Controlled final proofing system that prepares shaped pita dough for the baking stage.",
+"ar": "نظام تخمير نهائي مضبوط يجهّز عجين الخبز العربي المشكّل لمرحلة الخَبز."
+},
+"longDescription": {
+"en": "The Final Proofer provides the final fermentation stage before the shaped dough enters the baking oven. After flattening and shaping, the pita dough passes through a controlled environment where it receives the required proofing time. This process allows the dough to develop the desired structure and volume before baking. Controlled proofing helps maintain consistent bread quality and supports continuous production. The system is designed to operate as part of an automatic Arabic pita bread production line.",
+"ar": "يوفر جهاز التخمير النهائي المرحلة الأخيرة من تخمير العجين قبل دخوله إلى فرن الخَبز. بعد فرد العجين وتشكيله، يمر عجين الخبز العربي عبر بيئة يتم التحكم فيها حيث يحصل على وقت التخمير المطلوب. تساعد هذه العملية العجين على اكتساب البنية والحجم المناسبين قبل الخَبز. ويساهم التحكم في عملية التخمير في الحفاظ على جودة متجانسة للخبز ودعم الإنتاج المستمر. تم تصميم النظام للعمل ضمن خط إنتاج أوتوماتيكي للخبز العربي."
+},
+"image": "/FinalProoferArabicPita.jpeg",
+"images": [
+"/FinalProoferArabicPita.jpeg"
+],
+"descriptionImage": "/Ma5marNiha2i.jpeg",
+"characteristics": [
+{
+"label": {
+"en": "Output",
+"ar": "الإنتاج"
+},
+"value": "Quadruple"
+},
+{
+"label": {
+"en": "Production capacity",
+"ar": "الطاقة الإنتاجية"
+},
+"value": "10,000–12,000 loaves / hour"
+},
+{
+"label": {
+"en": "Loaf diameter",
+"ar": "قطر الرغيف"
+},
+"value": "14–23 cm"
+},
+{
+"label": {
+"en": "Line width",
+"ar": "عرض الخط"
+},
+"value": "100 cm"
+},
+{
+"label": {
+"en": "Electrical power",
+"ar": "الطاقة الكهربائية"
+},
+"value": "16 kW"
+},
+{
+"label": {
+"en": "Minimum space",
+"ar": "المساحة المطلوبة"
+},
+"value": "200 m²"
+},
+{
+"label": {
+"en": "Automation",
+"ar": "الأتمتة"
+},
+"value": "Fully automatic"
+}
+]
+},
+{
+"id": "Tunnel Oven",
+"name": {
+"en": "Tunnel Oven",
+"ar": "الفرن النفقي"
+},
+"shortDescription": {
+"en": "Continuous tunnel baking oven designed for fast and uniform Arabic pita bread production.",
+"ar": "فرن نفقي للخبز المستمر مصمم لإنتاج الخبز العربي بسرعة وبشكل متجانس."
+},
+"longDescription": {
+"en": "The Tunnel Oven is the baking stage of the Arabic pita bread production line. It continuously receives the shaped and proofed dough and bakes it under controlled temperature conditions. The tunnel design allows the dough pieces to move continuously through the baking chamber, providing consistent baking across the production line. The baking parameters can be adjusted according to the required bread size, thickness and production speed. The oven is suitable for high-capacity automatic bakeries requiring continuous Arabic pita production.",
+"ar": "يمثل الفرن النفقي مرحلة الخَبز في خط إنتاج الخبز العربي. يستقبل الفرن بشكل مستمر العجين المشكّل والمخمّر ويقوم بخَبزه ضمن درجات حرارة يتم التحكم بها. يسمح تصميم الفرن النفقي بمرور قطع العجين بشكل مستمر عبر حجرة الخَبز، مما يوفر خبزًا متجانسًا على طول خط الإنتاج. يمكن ضبط معايير الخَبز وفقًا لحجم الخبز وسماكته وسرعة الإنتاج المطلوبة. يناسب الفرن المخابز الأوتوماتيكية ذات الطاقة الإنتاجية العالية والتي تتطلب إنتاجًا مستمرًا للخبز العربي."
+},
+"image": "/TunnelOvenPitaArabicOne.jpeg",
+"images": [
+"/TunnelOvenPitaArabicOne.jpeg",
+"/TunnelOvenPitaArabicTow.jpeg"
+],
+"descriptionImage": "/betElNar.jpeg",
+"characteristics": [
+{
+"label": {
+"en": "Output",
+"ar": "الإنتاج"
+},
+"value": "Quadruple"
+},
+{
+"label": {
+"en": "Production capacity",
+"ar": "الطاقة الإنتاجية"
+},
+"value": "10,000–12,000 loaves / hour"
+},
+{
+"label": {
+"en": "Loaf diameter",
+"ar": "قطر الرغيف"
+},
+"value": "14–23 cm"
+},
+{
+"label": {
+"en": "Line width",
+"ar": "عرض الخط"
+},
+"value": "100 cm"
+},
+{
+"label": {
+"en": "Electrical power",
+"ar": "الطاقة الكهربائية"
+},
+"value": "16 kW"
+},
+{
+"label": {
+"en": "Minimum space",
+"ar": "المساحة المطلوبة"
+},
+"value": "200 m²"
+},
+{
+"label": {
+"en": "Automation",
+"ar": "الأتمتة"
+},
+"value": "Fully automatic"
+}
+]
+},
+{
+"id": "Cooling Conveyors",
+"name": {
+"en": "Cooling Conveyors",
+"ar": "ناقلات التبريد"
+},
+"shortDescription": {
+"en": "Conveyor system designed to cool freshly baked pita bread and prepare it for packaging or further handling.",
+"ar": "نظام ناقل مصمم لتبريد الخبز العربي الطازج وتجهيزه للتغليف أو المناولة."
+},
+"longDescription": {
+"en": "The Cooling Conveyors form the final handling stage after the tunnel oven. Freshly baked Arabic pita bread is transferred onto the conveyor system and allowed to cool gradually before packaging or further processing. The conveyors provide continuous movement of the baked bread while allowing heat and moisture to dissipate. Their layout and length can be configured according to the available production space and required cooling time. The system can be integrated directly with automatic baking and packaging lines for continuous production.",
+"ar": "تشكل ناقلات التبريد المرحلة الأخيرة من عملية مناولة الخبز بعد الفرن النفقي. يتم نقل الخبز العربي الطازج بعد خَبزه إلى نظام الناقلات، حيث يُترك ليبرد تدريجيًا قبل التغليف أو المعالجة اللاحقة. توفر الناقلات حركة مستمرة للخبز مع السماح بتبديد الحرارة والرطوبة. ويمكن تهيئة طول وترتيب الناقلات وفقًا للمساحة المتوفرة ووقت التبريد المطلوب. يمكن دمج النظام مباشرة مع خطوط الخَبز والتغليف الأوتوماتيكية لتحقيق إنتاج مستمر."
+},
+"image": "/CoolingConveyorOne.jpeg",
+"images": [
+"/CoolingConveyorOne.jpeg",
+"/CoolingConveyorTow.jpeg"
+],
+"descriptionImage": "/DoughDividerDesc.jpeg",
+"characteristics": [
+{
+"label": {
+"en": "Output",
+"ar": "الإنتاج"
+},
+"value": "Quadruple"
+},
+{
+"label": {
+"en": "Production capacity",
+"ar": "الطاقة الإنتاجية"
+},
+"value": "10,000–12,000 loaves / hour"
+},
+{
+"label": {
+"en": "Loaf diameter",
+"ar": "قطر الرغيف"
+},
+"value": "14–23 cm"
+},
+{
+"label": {
+"en": "Line width",
+"ar": "عرض الخط"
+},
+"value": "100 cm"
+},
+{
+"label": {
+"en": "Electrical power",
+"ar": "الطاقة الكهربائية"
+},
+"value": "16 kW"
+},
+{
+"label": {
+"en": "Minimum space",
+"ar": "المساحة المطلوبة"
+},
+"value": "200 m²"
+},
+{
+"label": {
+"en": "Automation",
+"ar": "الأتمتة"
+},
+"value": "Fully automatic"
+}
+]
+}
+]
+},
+
+{
+"id": "bread-production",
+"name": {
+"en": "Tannour Line",
+"ar": "خط إنتاج التنور"
+},
+"tagline": {
+"en": "Traditional tannour baking",
+"ar": "خبز التنور التقليدي"
+},
+"shortDescription": {
+"en": "Mostly popular amongst village people, the healthy Tannour bread is a traditional and healthy flat bread known in the Middle-Eastern region, and is one of the most authentic bread types on the market with demand for it continuously getting higher. It’s not-so-friendly baking process propelled B Plus to take a proactive stance and be a first mover in inventing a fully automatic production line responsible for yielding solely this particular loaf type.",
+"ar": "يُعد خبز التنور من أنواع الخبز التقليدي والصحي المنتشرة بشكل خاص في القرى والمناطق الريفية في الشرق الأوسط. ويتميز بطابعه الأصيل وشعبيته المتزايدة في الأسواق. ونظرًا لطبيعة عملية خبزه التقليدية التي تتطلب جهدًا كبيرًا، قامت B Plus بتطوير خط إنتاج أوتوماتيكي بالكامل مخصص لإنتاج هذا النوع من الخبز."
+},
+"image": "/Tanour.png",
+"machines": [
+{
+"id": "th-single",
+"name": {
+"en": "TH Single",
+"ar": "TH Single"
+},
+"shortDescription": {
+"en": "Single-chamber tannour oven designed for efficient traditional bread baking.",
+"ar": "فرن تنور بغرفة واحدة مصمم لخبز الخبز التقليدي بكفاءة."
+},
+"longDescription": {
+"en": "The TH Single is a professional single-chamber tannour oven designed for bakeries, restaurants and traditional bread shops. It provides a high-temperature baking environment suitable for producing authentic tannour bread with consistent results.",
+"ar": "فرن TH Single هو فرن تنور احترافي بغرفة واحدة، مصمم للمخابز والمطاعم ومحلات الخبز التقليدي. يوفر بيئة خبز بدرجات حرارة عالية ومناسبة لإنتاج خبز التنور الأصيل بنتائج متجانسة."
+},
+"image": "/TannourLine.jpeg",
+"descriptionImage": "/TannourDesc2.jpeg",
+"characteristics": [
+{
+"label": {
+"en": "Oven type",
+"ar": "نوع الفرن"
+},
+"value": "Single tannour chamber"
+},
+{
+"label": {
+"en": "Application",
+"ar": "الاستخدام"
+},
+"value": "Tannour bread & flatbreads"
+},
+{
+"label": {
+"en": "Heating",
+"ar": "نوع التسخين"
+},
+"value": "Gas"
+},
+{
+"label": {
+"en": "Baking temperature",
+"ar": "درجة حرارة الخَبز"
+},
+"value": "High-temperature operation"
+},
+{
+"label": {
+"en": "Construction",
+"ar": "الهيكل"
+},
+"value": "Stainless steel"
+},
+{
+"label": {
+"en": "Warranty",
+"ar": "الضمان"
+},
+"value": "24 months"
+}
+]
+},
+{
+"id": "th-double",
+"name": {
+"en": "TH Double",
+"ar": "TH Double"
+},
+"shortDescription": {
+"en": "Double-chamber tannour oven built for higher production capacity and continuous bread baking.",
+"ar": "فرن تنور بغرفتين مصمم لزيادة الطاقة الإنتاجية وخَبز الخبز بشكل مستمر."
+},
+"longDescription": {
+"en": "The TH Double features two independent tannour baking chambers, allowing higher production capacity while maintaining the traditional tannour baking process. It is suitable for busy bakeries, restaurants and commercial bread production facilities.",
+"ar": "يتميز فرن TH Double بغرفتي خبز مستقلتين، مما يسمح بزيادة الطاقة الإنتاجية مع الحفاظ على طريقة الخَبز التقليدية في التنور. وهو مناسب للمخابز والمطاعم ومرافق إنتاج الخبز التجارية ذات الطلب المرتفع."
+},
+"image": "/TannourLine.jpeg",
+"descriptionImage": "/TannourDesc.jpeg",
+"characteristics": [
+{
+"label": {
+"en": "Oven type",
+"ar": "نوع الفرن"
+},
+"value": "Double tannour chamber"
+},
+{
+"label": {
+"en": "Application",
+"ar": "الاستخدام"
+},
+"value": "Tannour bread & flatbreads"
+},
+{
+"label": {
+"en": "Baking chambers",
+"ar": "غرف الخَبز"
+},
+"value": "2 independent chambers"
+},
+{
+"label": {
+"en": "Heating",
+"ar": "نوع التسخين"
+},
+"value": "Gas"
+},
+{
+"label": {
+"en": "Baking temperature",
+"ar": "درجة حرارة الخَبز"
+},
+"value": "High-temperature operation"
+},
+{
+"label": {
+"en": "Warranty",
+"ar": "الضمان"
+},
+"value": "24 months"
+}
+]
+}
+]
+},
+
+{
+"id": "rotary-oven",
+"name": {
+"en": "Rotary Oven",
+"ar": "فرن دوار"
+},
+"tagline": {
+"en": "Professional rotary baking oven",
+"ar": "فرن دوار احترافي للخبز"
+},
+"shortDescription": {
+"en": "Professional rotary oven designed for efficient and uniform baking of bread, pastries and other bakery products.",
+"ar": "فرن دوار احترافي مصمم للخبز بكفاءة وتجانس للخبز والمعجنات ومنتجات المخابز المختلفة."
+},
+"image": "/rotaryCatOne.jpeg",
+"machines": [
+{
+"id": "rotary-oven-machine",
+"name": {
+"en": "Rotary Oven",
+"ar": "الفرن الدوار"
+},
+"shortDescription": {
+"en": "Rotary Rack Oven Professional baking performance with uniform heat distribution and consistent results. Designed for high-capacity production of bread, pastries, cakes, cookies, and other bakery products, with reliable operation and easy trolley loading.",
+"ar": "فرن دوار احترافي يوفر أداءً ممتازًا للخبز مع توزيع متجانس للحرارة ونتائج ثابتة. تم تصميمه للإنتاج بكميات كبيرة من الخبز والمعجنات والكعك والبسكويت وغيرها من منتجات المخابز، مع تشغيل موثوق وسهولة في تحميل العربات."
+},
+"longDescription": {
+"en": "Rotary Rack Oven Professional baking performance with uniform heat distribution and consistent results. Designed for high-capacity production of bread, pastries, cakes, cookies, and other bakery products, with reliable operation and easy trolley loading.",
+"ar": "فرن دوار احترافي مصمم لتوفير أداء ممتاز في الخَبز مع توزيع متجانس للحرارة ونتائج ثابتة. مناسب للإنتاج بكميات كبيرة من الخبز والمعجنات والكعك والبسكويت وغيرها من منتجات المخابز، مع تشغيل موثوق وسهولة في تحميل عربات الخَبز."
+},
+"image": "/rotaryCatOne.jpeg",
+"images": [
+"/rotaryCatOne.jpeg",
+"/rotaryCatTow.jpeg",
+"/rotaryCatThree.jpeg",
+"/rotaryCatFour.jpeg",
+"/rotaryCatFive.jpeg",
+"/rotaryCatSix.jpeg",
+"/rotaryCatSeven.jpeg"
+],
+"characteristics": []
+}
+]
+},
+
+{
+"id": "pastry",
+"name": {
+"en": "Pastry Equipment",
+"ar": "معدات المعجنات"
+},
+"tagline": {
+"en": "Complete pastry preparation & production",
+"ar": "معدات متكاملة لتحضير وإنتاج المعجنات"
+},
+"shortDescription": {
+"en": "Professional dough mixers, moulders, proofing chambers, sheeters and forming equipment for efficient pastry production.",
+"ar": "خلاطات ومشكّلات عجين وغرف تخمير وفرّادات ومعدات تشكيل احترافية لإنتاج المعجنات بكفاءة."
+},
+"image": "/PastryMachineMain.png",
+"machines": [
+{
+"id": "dough-mixers",
+"name": {
+"en": "Dough Mixers",
+"ar": "خلاطات العجين"
+},
+"shortDescription": {
+"en": "Professional dough mixers designed for consistent and efficient preparation of pastry and bakery dough.",
+"ar": "خلاطات عجين احترافية مصممة لتحضير عجين المعجنات والمخبوزات بكفاءة وبشكل متجانس."
+},
+"longDescription": {
+"en": "Dough Mixers are designed for bakeries and pastry kitchens that require reliable dough preparation. They provide thorough mixing and kneading to achieve consistent dough texture and quality across production batches. Size from 10 to 250 Liter.",
+"ar": "تم تصميم خلاطات العجين للمخابز ومطابخ المعجنات التي تحتاج إلى تحضير عجين موثوق. توفر خلطًا وعجنًا متكاملًا للحصول على قوام وجودة متجانسين في مختلف دفعات الإنتاج. تتوفر بأحجام تتراوح من 10 إلى 250 لترًا."
+},
+"images": [
+"/DoughMixerPastry.jpeg"
+],
+"characteristics": [
+{
+"label": {
+"en": "Application",
+"ar": "الاستخدام"
+},
+"value": "Pastry & bakery dough"
+},
+{
+"label": {
+"en": "Bowl",
+"ar": "الوعاء"
+},
+"value": "Stainless steel"
+},
+{
+"label": {
+"en": "Mixing system",
+"ar": "نظام الخلط"
+},
+"value": "Heavy-duty dough mixing"
+},
+{
+"label": {
+"en": "Construction",
+"ar": "الهيكل"
+},
+"value": "Stainless steel"
+},
+{
+"label": {
+"en": "Operation",
+"ar": "التشغيل"
+},
+"value": "Automatic"
+},
+{
+"label": {
+"en": "Warranty",
+"ar": "الضمان"
+},
+"value": "24 months"
+}
+]
+},
+{
+"id": "planetary-mixer",
+"name": {
+"en": "Planetary Mixer",
+"ar": "الخلاط الكوكبي"
+},
+"shortDescription": {
+"en": "Versatile planetary mixer for creams, batters, fillings and light doughs.",
+"ar": "خلاط كوكبي متعدد الاستخدامات للكريمات والعجائن والحشوات والعجائن الخفيفة."
+},
+"longDescription": {
+"en": "The Planetary Mixer is designed for pastry and confectionery applications where different mixing actions are required. With interchangeable tools, it can handle creams, batters, fillings, meringues and various light dough formulations. Size from 5 to 80 Liter.",
+"ar": "تم تصميم الخلاط الكوكبي لتطبيقات المعجنات والحلويات التي تتطلب عمليات خلط مختلفة. وبفضل أدواته القابلة للتبديل، يمكنه التعامل مع الكريمات والعجائن والحشوات والمرينغ ومختلف أنواع العجين الخفيف. تتوفر بأحجام تتراوح من 5 إلى 80 لترًا."
+},
+"images": [
+"/PlanetryMixerPastry.jpeg",
+"/PlanetaryMixerTow.jpeg",
+"/PlanetaryMixerThree.jpeg"
+],
+"characteristics": [
+{
+"label": {
+"en": "Application",
+"ar": "الاستخدام"
+},
+"value": "Creams, batters & light dough"
+},
+{
+"label": {
+"en": "Attachments",
+"ar": "الملحقات"
+},
+"value": "Whisk, beater & dough hook"
+},
+{
+"label": {
+"en": "Mixing system",
+"ar": "نظام الخلط"
+},
+"value": "Planetary action"
+},
+{
+"label": {
+"en": "Bowl material",
+"ar": "مادة الوعاء"
+},
+"value": "Stainless steel"
+},
+{
+"label": {
+"en": "Speeds",
+"ar": "السرعات"
+},
+"value": "Variable speeds"
+},
+{
+"label": {
+"en": "Warranty",
+"ar": "الضمان"
+},
+"value": "24 months"
+}
+]
+},
+{
+"id": "dough-Moulder",
+"name": {
+"en": "Dough Moulder",
+"ar": "آلة تشكيل العجين"
+},
+"shortDescription": {
+"en": "Professional dough rounding machine for producing smooth and uniform dough pieces.",
+"ar": "آلة احترافية لتدوير العجين وإنتاج قطع عجين متجانسة وناعمة."
+},
+"longDescription": {
+"en": "The Dough Rounder is designed to round divided dough pieces into uniform balls, helping standardize the shape and weight of dough before proofing and further processing. It is suitable for bakeries and pastry production lines.",
+"ar": "تم تصميم آلة تدوير العجين لتدوير قطع العجين بعد تقسيمها إلى كرات متجانسة، مما يساعد على توحيد شكل ووزن العجين قبل التخمير ومراحل الإنتاج التالية. وهي مناسبة للمخابز وخطوط إنتاج المعجنات."
+},
+"images": [
+"/DoughRounderPastry.jpeg",
+"/DoughMoulderTow.jpeg"
+],
+"descriptionImage": "/DoughMoulderDesc.jpeg",
+"characteristics": [
+{
+"label": {
+"en": "Application",
+"ar": "الاستخدام"
+},
+"value": "Dough rounding"
+},
+{
+"label": {
+"en": "Output",
+"ar": "الإنتاج"
+},
+"value": "Uniform dough balls"
+},
+{
+"label": {
+"en": "Operation",
+"ar": "التشغيل"
+},
+"value": "Automatic"
+},
+{
+"label": {
+"en": "Dough handling",
+"ar": "معالجة العجين"
+},
+"value": "Gentle rounding"
+},
+{
+"label": {
+"en": "Construction",
+"ar": "الهيكل"
+},
+"value": "Stainless steel"
+},
+{
+"label": {
+"en": "Warranty",
+"ar": "الضمان"
+},
+"value": "18 months"
+}
+]
+},
+{
+"id": "proofing-chamber",
+"name": {
+"en": "Proofing Chamber",
+"ar": "غرفة التخمير"
+},
+"shortDescription": {
+"en": "Temperature and humidity-controlled chamber for consistent dough proofing.",
+"ar": "غرفة تخمير مزودة بالتحكم بدرجة الحرارة والرطوبة لضمان تخمير متجانس للعجين."
+},
+"longDescription": {
+"en": "The Proofing Chamber provides a controlled environment for dough fermentation before baking. Adjustable temperature and humidity settings help maintain consistent proofing conditions and improve production quality and repeatability.",
+"ar": "توفر غرفة التخمير بيئة محكومة لتخمير العجين قبل الخَبز. تساعد إعدادات درجة الحرارة والرطوبة القابلة للتعديل على الحفاظ على ظروف تخمير ثابتة وتحسين جودة الإنتاج وتكراره."
+},
+"images": [
+"/ProofingChamberPastry.jpeg",
+"/ProofingRoomTow.jpeg"
+],
+"characteristics": [
+{
+"label": {
+"en": "Temperature control",
+"ar": "التحكم بدرجة الحرارة"
+},
+"value": "Digital"
+},
+{
+"label": {
+"en": "Humidity control",
+"ar": "التحكم بالرطوبة"
+},
+"value": "Adjustable"
+},
+{
+"label": {
+"en": "Application",
+"ar": "الاستخدام"
+},
+"value": "Dough fermentation"
+},
+{
+"label": {
+"en": "Insulation",
+"ar": "العزل"
+},
+"value": "Double-wall insulated"
+},
+{
+"label": {
+"en": "Control system",
+"ar": "نظام التحكم"
+},
+"value": "Digital controller"
+},
+{
+"label": {
+"en": "Warranty",
+"ar": "الضمان"
+},
+"value": "18 months"
+}
+]
+},
+{
+"id": "sheeters",
+"name": {
+"en": "Sheeters",
+"ar": "فرّادات العجين"
+},
+"shortDescription": {
+"en": "Professional dough sheeters for producing uniform dough thickness for pastry and bakery applications.",
+"ar": "فرّادات عجين احترافية لإنتاج عجين بسماكة متجانسة لتطبيقات المعجنات والمخبوزات."
+},
+"longDescription": {
+"en": "Sheeters reduce and shape dough to the required thickness using adjustable rollers. They are suitable for preparing pastry sheets, croissants, puff pastry, pies and other bakery products while improving consistency and reducing manual preparation time.",
+"ar": "تعمل فرّادات العجين على تقليل سماكة العجين وتشكيله إلى السماكة المطلوبة باستخدام أسطوانات قابلة للتعديل. وهي مناسبة لتحضير عجين المعجنات والكرواسان والعجين المورّق والفطائر وغيرها من منتجات المخابز، مع تحسين التجانس وتقليل وقت التحضير اليدوي."
+},
+"images": [
+"/SheetersPastry.jpeg",
+"/SheetersTow.jpeg"
+],
+"descriptionImage": "/SheetersDesc.jpeg",
+"characteristics": [
+{
+"label": {
+"en": "Application",
+"ar": "الاستخدام"
+},
+"value": "Pastry & bakery dough"
+},
+{
+"label": {
+"en": "Roller system",
+"ar": "نظام الأسطوانات"
+},
+"value": "Adjustable rollers"
+},
+{
+"label": {
+"en": "Thickness",
+"ar": "السماكة"
+},
+"value": "Adjustable"
+},
+{
+"label": {
+"en": "Operation",
+"ar": "التشغيل"
+},
+"value": "Continuous sheeting"
+},
+{
+"label": {
+"en": "Construction",
+"ar": "الهيكل"
+},
+"value": "Stainless steel"
+},
+{
+"label": {
+"en": "Warranty",
+"ar": "الضمان"
+},
+"value": "18 months"
+}
+]
+},
+{
+"id": "dough-Divider",
+"name": {
+"en": "Dough Divider",
+"ar": "آلة تقسيم العجين"
+},
+"shortDescription": {
+"en": "Automatic dough dividing machine for producing consistent dough portions for bakery and pastry production.",
+"ar": "آلة أوتوماتيكية لتقسيم العجين وإنتاج قطع متجانسة للمخابز وخطوط إنتاج المعجنات."
+},
+"longDescription": {
+"en": "The Dough Divider is designed to divide dough into consistent portions for bakery and pastry production. Its automated dividing process improves production speed, portion accuracy and product consistency while reducing manual handling.",
+"ar": "تم تصميم آلة تقسيم العجين لتقسيم العجين إلى قطع متجانسة لإنتاج المخبوزات والمعجنات. تساعد عملية التقسيم الأوتوماتيكية على زيادة سرعة الإنتاج ودقة الأوزان وتوحيد المنتجات وتقليل التعامل اليدوي مع العجين."
+},
+"images": [
+"/DoughDividerRoundingPastry.jpeg",
+"/DoughDividerTow.jpeg"
+],
+"characteristics": [
+{
+"label": {
+"en": "Application",
+"ar": "الاستخدام"
+},
+"value": "Bakery & pastry products"
+},
+{
+"label": {
+"en": "Dividing system",
+"ar": "نظام التقسيم"
+},
+"value": "Automatic dough dividing"
+},
+{
+"label": {
+"en": "Output",
+"ar": "الإنتاج"
+},
+"value": "Uniform dough portions"
+},
+{
+"label": {
+"en": "Operation",
+"ar": "التشغيل"
+},
+"value": "Automatic"
+},
+{
+"label": {
+"en": "Construction",
+"ar": "الهيكل"
+},
+"value": "Stainless steel"
+},
+{
+"label": {
+"en": "Warranty",
+"ar": "الضمان"
+},
+"value": "18 months"
+}
+]
+}
+]
+},
+
+{
+"id": "pizza-manakish",
+"name": {
+"en": "Pizza & Manakish Machines",
+"ar": "ماكينات البيتزا والمناقيش"
+},
+"tagline": {
+"en": "Professional pizza & manakish ovens",
+"ar": "أفران احترافية للبيتزا والمناقيش"
+},
+"shortDescription": {
+"en": "Professional deck, stone, manakish and rotary pizza ovens designed for high-quality pizza and manakish production.",
+"ar": "أفران احترافية أرضية وحجرية ومخصصة للمناقيش وأفران بيتزا دوّارة مصممة لإنتاج البيتزا والمناقيش بجودة عالية."
+},
+"image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1200&q=80",
+"machines": [
+{
+"id": "deck-oven",
+"name": {
+"en": "Deck Oven",
+"ar": "فرن أرضي"
+},
+"shortDescription": {
+"en": "Professional deck oven for baking pizza, manakish and a variety of flatbreads.",
+"ar": "فرن أرضي احترافي لخبز البيتزا والمناقيش ومجموعة متنوعة من أنواع الخبز المسطح."
+},
+"longDescription": {
+"en": "The Deck Oven is designed for professional bakeries, restaurants and pizza shops. Its spacious baking chamber provides consistent heat distribution and excellent bottom heat, making it suitable for pizza, manakish and flatbread production.",
+"ar": "تم تصميم الفرن الأرضي للمخابز والمطاعم ومحلات البيتزا الاحترافية. توفر غرفة الخَبز الواسعة توزيعًا متساويًا للحرارة وحرارة ممتازة من الأسفل، مما يجعله مناسبًا لإنتاج البيتزا والمناقيش والخبز المسطح."
+},
+"images": [
+"/DeckOven.jpeg"
+],
+"characteristics": []
+},
+{
+"id": "stone-deck-oven",
+"name": {
+"en": "Stone Deck Oven",
+"ar": "فرن أرضي حجري"
+},
+"shortDescription": {
+"en": "Stone-bottom deck oven providing direct heat for authentic pizza and manakish baking.",
+"ar": "فرن أرضي بقاعدة حجرية يوفر حرارة مباشرة لخبز البيتزا والمناقيش بطريقة احترافية."
+},
+"longDescription": {
+"en": "The Stone Deck Oven features a refractory stone baking surface that stores and transfers heat directly to the dough. It is ideal for producing pizzas and manakish with a crisp, well-baked bottom while maintaining a soft and properly cooked interior.",
+"ar": "يتميز الفرن الأرضي الحجري بسطح خَبز مصنوع من الحجر الحراري الذي يخزن الحرارة وينقلها مباشرة إلى العجين. وهو مثالي لإنتاج البيتزا والمناقيش بقاع مقرمش ومخبوز جيدًا مع الحفاظ على طراوة ونضج مناسب من الداخل."
+},
+"images": [
+"/StoneDeckOvenImg.jpeg"
+],
+"characteristics": []
+},
+{
+"id": "manakish-oven",
+"name": {
+"en": "Manakish Oven",
+"ar": "فرن المناقيش"
+},
+"shortDescription": {
+"en": "Dedicated professional oven designed for fast and consistent manakish production.",
+"ar": "فرن احترافي مخصص لإنتاج المناقيش بسرعة وبنتائج متجانسة."
+},
+"longDescription": {
+"en": "The Manakish Oven is designed specifically for bakeries and restaurants specializing in Lebanese manakish. Its high-temperature baking chamber delivers fast cooking and consistent results across different types of manakish, including zaatar, cheese and meat toppings.",
+"ar": "تم تصميم فرن المناقيش خصيصًا للمخابز والمطاعم المتخصصة في المناقيش اللبنانية. توفر غرفة الخَبز ذات الحرارة العالية طهيًا سريعًا ونتائج متجانسة لمختلف أنواع المناقيش، بما في ذلك الزعتر والجبنة واللحمة."
+},
+"images": [
+"/Manakish.jpeg",
+"/ManakishOvenTow.jpeg",
+"/ManakishOvenThree.jpeg"
+],
+"characteristics": []
+},
+{
+"id": "rotary-pizza-oven",
+"name": {
+"en": "Rotary Pizza Oven",
+"ar": "فرن البيتزا الدوّار"
+},
+"shortDescription": {
+"en": "High-capacity rotary oven designed for fast and evenly baked pizzas.",
+"ar": "فرن بيتزا دوّار عالي السعة مصمم لخبز البيتزا بسرعة وبشكل متجانس."
+},
+"longDescription": {
+"en": "The Rotary Pizza Oven uses a rotating baking platform to provide even heat exposure throughout the baking cycle. It is suitable for high-volume pizza shops and commercial kitchens that require consistent baking results and efficient production.",
+"ar": "يستخدم فرن البيتزا الدوّار منصة خَبز دوّارة لضمان تعرض البيتزا للحرارة بشكل متساوٍ طوال دورة الخَبز. وهو مناسب لمحلات البيتزا ذات الإنتاج العالي والمطابخ التجارية التي تحتاج إلى نتائج ثابتة وإنتاج فعال."
+},
+"images": [
+"/RotaryImg.jpeg",
+"/RotaryOvenTow.jpeg"
+],
+"characteristics": []
+},
+{
+"id": "stone-manakish-oven",
+"name": {
+"en": "Stone Manakish Oven",
+"ar": "فرن المناقيش الحجري"
+},
+"shortDescription": {
+"en": "Traditional-style stone oven combining high heat and a refractory surface for authentic manakish.",
+"ar": "فرن حجري بطابع تقليدي يجمع بين الحرارة العالية والسطح الحراري للحصول على مناقيش بطابع أصيل."
+},
+"longDescription": {
+"en": "The Stone Manakish Oven is built around a refractory stone baking surface that provides direct and stable heat to the dough. It is designed for restaurants and bakeries looking for authentic Lebanese-style manakish with a crisp base and evenly baked toppings.",
+"ar": "يعتمد فرن المناقيش الحجري على سطح خَبز مصنوع من الحجر الحراري لتوفير حرارة مباشرة وثابتة للعجين. وقد تم تصميمه للمطاعم والمخابز التي تبحث عن مناقيش لبنانية بطابع أصيل مع قاعدة مقرمشة ومكونات مخبوزة بشكل متساوٍ."
+},
+"images": [
+"/StoneManakishOven.jpeg"
+],
+"characteristics": []
+},
+{
+"id": "dough-cutter",
+"name": {
+"en": "Dough Cutter",
+"ar": "مقطّع العجين"
+},
+"shortDescription": {
+"en": "Professional dough cutting machine designed for accurate and consistent dough portioning.",
+"ar": "ماكينة احترافية لتقطيع العجين وتقسيمه إلى قطع متساوية بدقة وثبات."
+},
+"longDescription": {
+"en": "The Dough Cutter is designed for bakeries, pizza shops and commercial kitchens that require fast and consistent dough portioning. It helps divide dough into uniform pieces, improving production efficiency and ensuring consistent product size.",
+"ar": "تم تصميم ماكينة تقطيع العجين للمخابز ومحلات البيتزا والمطابخ التجارية التي تحتاج إلى تقسيم العجين بسرعة وبشكل متجانس. تساعد الماكينة على تقسيم العجين إلى قطع متساوية، مما يحسن كفاءة الإنتاج ويضمن ثبات حجم المنتجات."
+},
+"images": [
+"/DoughCutterManakish.jpeg"
+],
+"characteristics": []
+},
+{
+"id": "dough-flattener",
+"name": {
+"en": "Dough Flattener",
+"ar": "آلة فرد العجين"
+},
+"shortDescription": {
+"en": "Professional dough flattening machine for producing uniform pizza, manakish and flatbread dough.",
+"ar": "ماكينة احترافية لفرد العجين وإنتاج عجائن متساوية للبيتزا والمناقيش والخبز المسطح."
+},
+"longDescription": {
+"en": "The Dough Flattener is designed to flatten and shape dough quickly and consistently. It is suitable for bakeries, restaurants and pizza shops producing pizza, manakish and other flatbread products. Its controlled rolling system helps achieve uniform dough thickness and shape.",
+"ar": "تم تصميم ماكينة فرد العجين لفرد وتشكيل العجين بسرعة وبشكل متجانس. وهي مناسبة للمخابز والمطاعم ومحلات البيتزا التي تنتج البيتزا والمناقيش وغيرها من منتجات الخبز المسطح. يساعد نظام الفرد المتحكم به على الحصول على سماكة وشكل متجانسين للعجين."
+},
+"images": [
+"/DoughFlatenerManakish.jpeg"
+],
+"characteristics": []
+},
+{
+"id": "dough-mixer",
+"name": {
+"en": "Dough Mixer",
+"ar": "عجّانة العجين"
+},
+"shortDescription": {
+"en": "Heavy-duty professional dough mixer designed for efficient and consistent dough preparation.",
+"ar": "عجانة عجين احترافية قوية مصممة لتحضير العجين بكفاءة وبنتائج متجانسة."
+},
+"longDescription": {
+"en": "The Dough Mixer is designed for bakeries, restaurants and commercial kitchens requiring reliable and efficient dough preparation. Its powerful mixing system combines flour, water and other ingredients evenly to produce consistent dough suitable for pizza, manakish and various bakery products.",
+"ar": "تم تصميم عجانة العجين للمخابز والمطاعم والمطابخ التجارية التي تحتاج إلى تحضير العجين بكفاءة وموثوقية. يعمل نظام الخلط القوي على مزج الطحين والماء والمكونات الأخرى بشكل متجانس لإنتاج عجين ثابت مناسب للبيتزا والمناقيش ومختلف منتجات المخابز."
+},
+"images": [
+"/DoughMixerManakish.jpeg"
+],
+"characteristics": []
+}
+]
+},
+
+{
+"id": "Katayf",
+"name": {
+"en": "Katayef Machines",
+"ar": "ماكينات القطايف"
+},
+"tagline": {
+"en": "Automatic katayef production",
+"ar": "إنتاج القطايف الأوتوماتيكي"
+},
+"shortDescription": {
+"en": "The Katayef Machine is designed for efficient and consistent production of traditional katayef pancakes. It automatically dispenses and cooks the batter into evenly sized, uniform pieces, helping bakeries maintain consistent quality while reducing manual preparation time.",
+"ar": "آلة قطايف مصممة لإنتاج أقراص القطايف التقليدية بكفاءة وبشكل متجانس. تقوم بتوزيع خليط القطايف وخَبزه تلقائيًا للحصول على قطع متساوية الحجم والشكل، مما يساعد المخابز على الحفاظ على جودة ثابتة وتقليل وقت التحضير اليدوي."
+},
+"image": "/KatayefMachineMain.png",
+"machines": [
+{
+"id": "katayef-machine",
+"name": {
+"en": "Katayef Machine",
+"ar": "آلة القطايف"
+},
+"shortDescription": {
+"en": "Automatic katayef production machine for producing uniform traditional katayef pancakes.",
+"ar": "آلة أوتوماتيكية لإنتاج أقراص القطايف التقليدية بشكل متجانس."
+},
+"longDescription": {
+"en": "The Katayef Machine is designed for bakeries and pastry shops that require fast and consistent production of traditional katayef pancakes. The machine automatically dispenses the katayef batter onto the heated surface and cooks each piece to a consistent size and thickness. This helps improve production speed, product uniformity and overall efficiency while reducing manual preparation.",
+"ar": "تم تصميم آلة القطايف للمخابز ومحلات الحلويات التي تحتاج إلى إنتاج سريع ومتجانس لأقراص القطايف التقليدية. تقوم الآلة بتوزيع خليط القطايف تلقائيًا على سطح التسخين وخَبز كل قطعة بحجم وسماكة متجانسين. تساعد هذه العملية على زيادة سرعة الإنتاج وتوحيد حجم المنتجات وتقليل وقت التحضير اليدوي."
+},
+"images": [
+"/KatayefMachine.jpeg",
+"/KatayefTow.jpeg",
+"/KatayefThree.jpeg",
+"/KatayefFour.jpeg"
+],
+"characteristics": [
+{
+"label": {
+"en": "Application",
+"ar": "الاستخدام"
+},
+"value": "Katayef pancake production"
+},
+{
+"label": {
+"en": "Production system",
+"ar": "نظام الإنتاج"
+},
+"value": "Automatic batter dispensing"
+},
+{
+"label": {
+"en": "Baking system",
+"ar": "نظام الخَبز"
+},
+"value": "Integrated heated surface"
+},
+{
+"label": {
+"en": "Product",
+"ar": "المنتج"
+},
+"value": "Traditional katayef pancakes"
+},
+{
+"label": {
+"en": "Operation",
+"ar": "التشغيل"
+},
+"value": "Automatic"
+},
+{
+"label": {
+"en": "Construction",
+"ar": "الهيكل"
+},
+"value": "Stainless steel"
+},
+{
+"label": {
+"en": "Warranty",
+"ar": "الضمان"
+},
+"value": "12 months"
+}
+]
+}
+]
+},
+
+{
+"id": "maamoul-mooncake",
+"name": {
+"en": "Maamoul & Mooncake Machines",
+"ar": "ماكينات المعمول والمون كيك"
+},
+"tagline": {
+"en": "Form, fill & decorate",
+"ar": "تشكيل وحشو وتزيين"
+},
+"shortDescription": {
+"en": "Automatic machines for forming, filling and decorating maamoul and mooncakes with consistent size and shape.",
+"ar": "ماكينات آلية لتشكيل وحشو وتزيين المعمول والمون كيك بأحجام وأشكال متجانسة."
+},
+"image": "MaamoulMooncakeMain.png",
+"machines": [
+{
+"id": "maamoul",
+"name": {
+"en": "Maamoul Machine MF-300",
+"ar": "ماكينة تشكيل المعمول MF-300"
+},
+"shortDescription": {
+"en": "Automatic forming machine for filled maamoul with interchangeable moulds.",
+"ar": "ماكينة آلية لتشكيل المعمول المحشو مع قوالب قابلة للتبديل."
+},
+"longDescription": {
+"en": "The MF-300 automatically portions, fills and forms maamoul into consistent shapes and weights. Interchangeable moulds allow different traditional maamoul designs and sizes, making it suitable for small and medium-scale production.",
+"ar": "تقوم ماكينة MF-300 بتقسيم العجين وحشوه وتشكيل المعمول آليًا بأوزان وأشكال متجانسة. تتيح القوالب القابلة للتبديل إنتاج تصاميم وأحجام مختلفة من المعمول، مما يجعلها مناسبة للإنتاج الصغير والمتوسط."
+},
+"images": [
+"/Ma3moul.jpeg",
+"/MaamoulTow.jpeg",
+"/MaamoulThree.jpeg"
+],
+"descriptionImages": [
+"/Ma3moulDesc.jpeg",
+"/MaamoulDescTow.jpeg",
+"/MaamoulDescThree.jpeg"
+],
+"characteristics": [
+{
+"label": {
+"en": "Capacity",
+"ar": "الطاقة الإنتاجية"
+},
+"value": "1,500–3,000 pieces / hour"
+},
+{
+"label": {
+"en": "Product weight",
+"ar": "وزن المنتج"
+},
+"value": "10g – 80g"
+},
+{
+"label": {
+"en": "Filling",
+"ar": "الحشو"
+},
+"value": "Date, nut or chocolate filling"
+},
+{
+"label": {
+"en": "Moulds",
+"ar": "القوالب"
+},
+"value": "Interchangeable"
+},
+{
+"label": {
+"en": "Control",
+"ar": "التحكم"
+},
+"value": "Digital control panel"
+},
+{
+"label": {
+"en": "Power",
+"ar": "الطاقة الكهربائية"
+},
+"value": "380V / 50Hz, 3-phase"
+},
+{
+"label": {
+"en": "Warranty",
+"ar": "الضمان"
+},
+"value": "24 months"
+}
+]
+}
+]
+},
+
+{
+"id": "packaging-machines",
+"name": {
+"en": "Packaging Machines",
+"ar": "ماكينات التغليف"
+},
+"tagline": {
+"en": "Pack, seal & label",
+"ar": "التعبئة والإحكام والتوسيم"
+},
+"shortDescription": {
+"en": "Automatic packaging equipment for bread, pastries, maamoul, mooncakes and other bakery products.",
+"ar": "معدات تغليف آلية للخبز والمعجنات والمعمول والمون كيك ومنتجات المخابز الأخرى."
+},
+"image": "/Packaging.png",
+"machines": [
+{
+"id": "Packaging Machine",
+"name": {
+"en": "Packaging Machine",
+"ar": "ماكينة التغليف الأفقية الآلية FW-600"
+},
+"shortDescription": {
+"en": "High-speed horizontal flow wrapper for bakery products and individual pieces.",
+"ar": "ماكينة تغليف أفقية عالية السرعة لمنتجات المخابز والقطع الفردية."
+},
+"longDescription": {
+"en": "The FW-600 automatically feeds and wraps bakery products in heat-sealed film. It is suitable for individual maamoul, mooncakes, pastries, buns and other products requiring hygienic individual packaging.",
+"ar": "تقوم ماكينة FW-600 بتغذية منتجات المخابز وتغليفها تلقائيًا باستخدام فيلم محكم الإغلاق بالحرارة. وهي مناسبة لتغليف قطع المعمول والمون كيك والمعجنات والخبز وغيرها من المنتجات بشكل فردي وصحي."
+},
+"images": [
+"/Packaging.jpeg"
+],
+"descriptionImages": [
+"/PackagingDesc.jpeg"
+]
+}
+]
+}
+]

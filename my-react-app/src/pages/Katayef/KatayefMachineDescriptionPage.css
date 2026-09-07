@@ -1,0 +1,257 @@
+.katayef-description {
+  padding: 40px 0 100px;
+}
+
+.katayef-description__back {
+  margin-bottom: 50px;
+}
+
+.katayef-description__back a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.katayef-description__hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: start;
+}
+
+/* =========================
+   GALLERY
+========================= */
+
+.katayef-gallery__main {
+  height: 550px;
+
+  background: #f6f6f6;
+
+  padding: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.katayef-gallery__main img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+.katayef-gallery__arrow {
+  position: absolute;
+
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  width: 45px;
+  height: 45px;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.9);
+
+  cursor: pointer;
+
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.katayef-gallery__arrow:hover {
+  background: #fff;
+
+  transform: translateY(-50%) scale(1.05);
+}
+
+.katayef-gallery__arrow--left {
+  left: 15px;
+}
+
+.katayef-gallery__arrow--right {
+  right: 15px;
+}
+
+/* =========================
+   THUMBNAILS
+========================= */
+
+.katayef-gallery__thumbnails {
+  display: flex;
+
+  gap: 12px;
+
+  margin-top: 15px;
+
+  overflow-x: auto;
+
+  padding-bottom: 5px;
+}
+
+.katayef-gallery__thumbnail {
+  width: 85px;
+  height: 70px;
+
+  padding: 5px;
+
+  background: #f6f6f6;
+
+  border: 1px solid #ddd;
+
+  cursor: pointer;
+
+  flex-shrink: 0;
+}
+
+.katayef-gallery__thumbnail.active {
+  border: 2px solid #111;
+}
+
+.katayef-gallery__thumbnail img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+/* =========================
+   CONTENT
+========================= */
+
+.katayef-description__content > span {
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+
+  font-size: 13px;
+
+  font-weight: 600;
+}
+
+.katayef-description__content h1 {
+  font-size: clamp(42px, 6vw, 75px);
+
+  line-height: 1;
+
+  margin: 15px 0 30px;
+}
+
+.katayef-description__content p {
+  line-height: 1.9;
+
+  white-space: pre-line;
+
+  margin-bottom: 35px;
+}
+
+/* =========================
+   CHARACTERISTICS
+========================= */
+
+.katayef-characteristics {
+  margin-top: 100px;
+}
+
+.katayef-characteristics__head {
+  margin-bottom: 35px;
+}
+
+.katayef-characteristics__head span {
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+
+  font-size: 13px;
+
+  font-weight: 600;
+}
+
+.katayef-characteristics__head h2 {
+  font-size: clamp(32px, 5vw, 55px);
+
+  margin: 10px 0 0;
+}
+
+.katayef-characteristics__grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  border-top: 1px solid #ddd;
+}
+
+.katayef-characteristic {
+  padding: 20px 0;
+
+  border-bottom: 1px solid #ddd;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 30px;
+}
+
+.katayef-characteristic span {
+  color: #666;
+}
+
+.katayef-characteristic strong {
+  text-align: right;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 800px) {
+
+  .katayef-description {
+    padding: 30px 20px 70px;
+  }
+
+  .katayef-description__hero {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+
+  .katayef-gallery__main {
+    height: 350px;
+  }
+
+  .katayef-characteristics {
+    margin-top: 70px;
+  }
+
+  .katayef-characteristics__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .katayef-characteristic {
+    flex-direction: column;
+
+    gap: 8px;
+  }
+
+  .katayef-characteristic strong {
+    text-align: left;
+  }
+}

@@ -1,0 +1,243 @@
+.pastry-description {
+  padding: 40px 0 100px;
+}
+
+.pastry-description__back {
+  margin-bottom: 50px;
+}
+
+.pastry-description__back a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.pastry-description__hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: start;
+}
+
+/* ========================= */
+/* Gallery */
+/* ========================= */
+
+.pastry-gallery__main {
+  height: 550px;
+  background: #f6f6f6;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.pastry-gallery__main img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.pastry-gallery__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 45px;
+  height: 45px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.9);
+
+  cursor: pointer;
+
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background 0.2s ease;
+}
+
+.pastry-gallery__arrow:hover {
+  background: #fff;
+}
+
+.pastry-gallery__arrow--left {
+  left: 15px;
+}
+
+.pastry-gallery__arrow--right {
+  right: 15px;
+}
+
+/* ========================= */
+/* Thumbnails */
+/* ========================= */
+
+.pastry-gallery__thumbnails {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+  overflow-x: auto;
+  padding-bottom: 5px;
+}
+
+.pastry-gallery__thumbnail {
+  width: 85px;
+  height: 70px;
+
+  padding: 5px;
+
+  background: #f6f6f6;
+
+  border: 1px solid #ddd;
+
+  cursor: pointer;
+
+  flex-shrink: 0;
+}
+
+.pastry-gallery__thumbnail.active {
+  border: 2px solid #111;
+}
+
+.pastry-gallery__thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ========================= */
+/* Description */
+/* ========================= */
+
+.pastry-description__content > span {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.pastry-description__content h1 {
+  font-size: clamp(42px, 6vw, 75px);
+  line-height: 1;
+  margin: 15px 0 30px;
+}
+
+.pastry-description__content p {
+  line-height: 1.9;
+  white-space: pre-line;
+  margin-bottom: 35px;
+}
+
+/* ========================= */
+/* Characteristics */
+/* ========================= */
+
+.pastry-characteristics {
+  margin-top: 100px;
+}
+
+.pastry-characteristics__head {
+  margin-bottom: 35px;
+}
+
+.pastry-characteristics__head span {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.pastry-characteristics__head h2 {
+  font-size: clamp(32px, 5vw, 55px);
+  margin: 10px 0 0;
+}
+
+.pastry-characteristics__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid #ddd;
+}
+
+.pastry-characteristic {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.pastry-characteristic span {
+  color: #666;
+}
+
+.pastry-characteristic strong {
+  text-align: right;
+}
+
+/* ========================= */
+/* Description Image */
+/* ========================= */
+
+.pastry-description__extra-image {
+  margin-top: 100px;
+  background: #f6f6f6;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.pastry-description__extra-image img {
+  width: 100%;
+  max-height: 700px;
+  object-fit: contain;
+}
+
+/* ========================= */
+/* Mobile */
+/* ========================= */
+
+@media (max-width: 800px) {
+  .pastry-description {
+    padding: 30px 20px 70px;
+  }
+
+  .pastry-description__hero {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .pastry-gallery__main {
+    height: 350px;
+  }
+
+  .pastry-characteristics {
+    margin-top: 70px;
+  }
+
+  .pastry-characteristics__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pastry-characteristic {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .pastry-characteristic strong {
+    text-align: left;
+  }
+
+  .pastry-description__extra-image {
+    margin-top: 70px;
+    padding: 20px;
+  }
+}

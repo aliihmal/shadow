@@ -1,0 +1,223 @@
+.tannour-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 100px 0;
+
+  background:
+    radial-gradient(
+      circle at 85% 30%,
+      rgba(0, 110, 255, 0.20),
+      transparent 35%
+    ),
+    linear-gradient(
+      135deg,
+      #02050a 0%,
+      #061326 55%,
+      #071a33 100%
+    );
+
+  color: #ffffff;
+}
+
+.tannour-hero span {
+  display: block;
+  margin-bottom: 15px;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 600;
+
+  color: #6ea8ff;
+}
+
+.tannour-hero h1 {
+  font-size: clamp(45px, 7vw, 85px);
+  line-height: 1;
+  margin: 0 0 25px;
+
+  color: #ffffff;
+}
+
+.tannour-hero p {
+  max-width: 850px;
+  line-height: 1.8;
+  font-size: 17px;
+
+  color: #b8c9df;
+}
+
+
+/* =========================
+   MACHINES SECTION
+   ========================= */
+
+.tannour-machines {
+  padding: 100px 0;
+
+  background: #ffffff;
+  color: #071a33;
+}
+
+.tannour-machines__head {
+  margin-bottom: 50px;
+}
+
+.tannour-machines__head span {
+  display: block;
+  margin-bottom: 10px;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 600;
+
+  color: #1764a5;
+}
+
+.tannour-machines__head h2 {
+  font-size: clamp(35px, 5vw, 60px);
+  margin: 0 0 15px;
+
+  color: #071a33;
+}
+
+.tannour-machines__head p {
+  color: #666666;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   MACHINES GRID
+   ========================= */
+
+.tannour-machines__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.tannour-machine-box {
+  display: block;
+
+  text-decoration: none;
+  color: inherit;
+
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.tannour-machine-box:hover {
+  transform: translateY(-5px);
+
+  border-color: #4d91e8;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================
+   MACHINE IMAGE
+   ========================= */
+
+.tannour-machine-box__image {
+  height: 380px;
+
+  background: #f6f6f6;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px;
+
+  overflow: hidden;
+}
+
+.tannour-machine-box__image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  transition: transform 0.4s ease;
+}
+
+.tannour-machine-box:hover .tannour-machine-box__image img {
+  transform: scale(1.05);
+}
+
+
+/* =========================
+   MACHINE CONTENT
+   ========================= */
+
+.tannour-machine-box__content {
+  padding: 30px;
+}
+
+.tannour-machine-box__content h3 {
+  margin: 0 0 12px;
+
+  font-size: 28px;
+  line-height: 1.2;
+
+  color: #071a33;
+}
+
+.tannour-machine-box__content p {
+  margin: 0 0 20px;
+
+  line-height: 1.7;
+
+  color: #666666;
+}
+
+.tannour-machine-box__content span {
+  font-weight: 600;
+
+  color: #1764a5;
+
+  transition: color 0.25s ease;
+}
+
+.tannour-machine-box:hover .tannour-machine-box__content span {
+  color: #0b5aa0;
+}
+
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 700px) {
+  .tannour-hero {
+    padding: 70px 20px;
+  }
+
+  .tannour-hero h1 {
+    font-size: 48px;
+  }
+
+  .tannour-hero p {
+    font-size: 16px;
+  }
+
+  .tannour-machines {
+    padding: 70px 20px;
+  }
+
+  .tannour-machines__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tannour-machine-box__image {
+    height: 300px;
+  }
+}

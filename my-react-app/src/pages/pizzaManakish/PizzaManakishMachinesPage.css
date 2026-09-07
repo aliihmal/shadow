@@ -1,0 +1,229 @@
+.pizza-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 110px 0 80px;
+
+  background:
+    radial-gradient(
+      circle at 85% 30%,
+      rgba(0, 110, 255, 0.20),
+      transparent 35%
+    ),
+    linear-gradient(
+      135deg,
+      #02050a 0%,
+      #061326 55%,
+      #071a33 100%
+    );
+
+  color: #ffffff;
+}
+
+.pizza-hero .container {
+  max-width: 900px;
+}
+
+.pizza-hero span {
+  display: block;
+  margin-bottom: 15px;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 600;
+
+  color: #6ea8ff;
+}
+
+.pizza-hero h1 {
+  font-size: clamp(45px, 7vw, 90px);
+  line-height: 1;
+  margin: 18px 0 25px;
+
+  color: #ffffff;
+}
+
+.pizza-hero p {
+  max-width: 750px;
+  line-height: 1.8;
+
+  color: #b8c9df;
+}
+
+
+/* =========================
+   MACHINES SECTION
+   ========================= */
+
+.pizza-machines {
+  padding: 100px 0;
+
+  background: #ffffff;
+  color: #071a33;
+}
+
+.pizza-machines__head {
+  margin-bottom: 50px;
+}
+
+.pizza-machines__head > span {
+  display: block;
+  margin-bottom: 10px;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 600;
+
+  color: #1764a5;
+}
+
+.pizza-machines__head h2 {
+  font-size: clamp(32px, 5vw, 55px);
+  margin: 12px 0;
+
+  color: #071a33;
+}
+
+.pizza-machines__head p {
+  line-height: 1.7;
+  color: #666666;
+}
+
+
+/* =========================
+   MACHINES GRID
+   ========================= */
+
+.pizza-machines__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.pizza-machine-box {
+  display: block;
+
+  text-decoration: none;
+  color: inherit;
+
+  border: 1px solid #dddddd;
+  background: #ffffff;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.pizza-machine-box:hover {
+  transform: translateY(-6px);
+
+  border-color: #4d91e8;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================
+   MACHINE IMAGE
+   ========================= */
+
+.pizza-machine-box__image {
+  height: 250px;
+  padding: 25px;
+
+  background: #f7f7f7;
+
+  overflow: hidden;
+}
+
+.pizza-machine-box__image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  transition: transform 0.4s ease;
+}
+
+.pizza-machine-box:hover .pizza-machine-box__image img {
+  transform: scale(1.05);
+}
+
+
+/* =========================
+   MACHINE CONTENT
+   ========================= */
+
+.pizza-machine-box__content {
+  padding: 25px;
+}
+
+.pizza-machine-box__content h3 {
+  font-size: 24px;
+  line-height: 1.2;
+
+  margin: 0 0 12px;
+
+  color: #071a33;
+}
+
+.pizza-machine-box__content p {
+  line-height: 1.7;
+
+  margin: 0 0 20px;
+
+  color: #666666;
+}
+
+.pizza-machine-box__content span {
+  font-weight: 600;
+
+  color: #1764a5;
+
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.pizza-machine-box:hover .pizza-machine-box__content span {
+  color: #0b5aa0;
+}
+
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 900px) {
+  .pizza-machines__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .pizza-hero {
+    padding: 80px 20px 60px;
+  }
+
+  .pizza-hero h1 {
+    font-size: 48px;
+  }
+
+  .pizza-hero p {
+    font-size: 16px;
+  }
+
+  .pizza-machines {
+    padding: 70px 20px;
+  }
+
+  .pizza-machines__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pizza-machine-box__image {
+    height: 280px;
+  }
+}
