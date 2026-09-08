@@ -21,10 +21,12 @@ import PackagingMachinesPage from "./pages/packaging/PackagingMachinesPage";
 import PackagingMachineDescriptionPage from "./pages/packaging/PackagingMachineDescriptionPage";
 import RotaryOvenPage from "./pages/rotary/RotaryOvenPage";
 import ContactPage from "./pages/contact/contact";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <Routes>
 
         {/* Home */}

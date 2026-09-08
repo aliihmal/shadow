@@ -29,10 +29,10 @@
 "en": "The automatic Dough Divider is designed to divide prepared dough into equal portions with consistent weight and size. It is the first stage of the Arabic pita bread production process and receives the prepared dough through a stainless steel hopper. The machine continuously divides the dough into accurately measured dough balls, helping maintain uniformity throughout the production line. The adjustable system allows the operator to control the dough-ball weight according to the required loaf size. The machine is suitable for continuous bakery production and can be configured for different production capacities.",
 "ar": "تم تصميم مقسّم العجين الأوتوماتيكي لتقسيم العجين المحضر إلى حصص متساوية من حيث الوزن والحجم. ويُعد المرحلة الأولى في عملية إنتاج الخبز العربي، حيث يستقبل العجين المحضر من خلال قادوس مصنوع من الفولاذ المقاوم للصدأ. تقوم الآلة بتقسيم العجين بشكل مستمر إلى كرات ذات أوزان دقيقة، مما يساعد على الحفاظ على التجانس طوال خط الإنتاج. يتيح النظام القابل للتعديل التحكم في وزن كرة العجين وفقًا لحجم الرغيف المطلوب. وتناسب الآلة عمليات الإنتاج المستمر في المخابز ويمكن تهيئتها وفقًا لطاقات إنتاجية مختلفة."
 },
-"image": "/DoughDividerArabicPitaOne.jpeg",
+"image": "/DoughDividerArabicPita.jpeg",
 "images": [
-"/DoughDividerArabicPitaOne.jpeg",
 "/DoughDividerArabicPita.jpeg",
+"/DoughDividerArabicPitaOne.jpeg",
 "/DoughDividerArabicPitaTow.jpeg",
 "/DoughDividerArabicPitaThree.jpeg"
 ],
@@ -464,8 +464,8 @@
 "ar": "خبز التنور التقليدي"
 },
 "shortDescription": {
-"en": "Mostly popular amongst village people, the healthy Tannour bread is a traditional and healthy flat bread known in the Middle-Eastern region, and is one of the most authentic bread types on the market with demand for it continuously getting higher. It’s not-so-friendly baking process propelled B Plus to take a proactive stance and be a first mover in inventing a fully automatic production line responsible for yielding solely this particular loaf type.",
-"ar": "يُعد خبز التنور من أنواع الخبز التقليدي والصحي المنتشرة بشكل خاص في القرى والمناطق الريفية في الشرق الأوسط. ويتميز بطابعه الأصيل وشعبيته المتزايدة في الأسواق. ونظرًا لطبيعة عملية خبزه التقليدية التي تتطلب جهدًا كبيرًا، قامت B Plus بتطوير خط إنتاج أوتوماتيكي بالكامل مخصص لإنتاج هذا النوع من الخبز."
+"en": "Mostly popular amongst village people, the healthy Tannour bread is a traditional and healthy flat bread known in the Middle-Eastern region, and is one of the most authentic bread types on the market with demand for it continuously getting higher. It’s not-so-friendly baking process propelled to take a proactive stance and be a first mover in inventing a fully automatic production line responsible for yielding solely this particular loaf type.",
+"ar": "يُعد خبز التنور من أنواع الخبز التقليدي والصحي المنتشرة بشكل خاص في القرى والمناطق الريفية في الشرق الأوسط. ويتميز بطابعه الأصيل وشعبيته المتزايدة في الأسواق. ونظرًا لطبيعة عملية خبزه التقليدية التي تتطلب جهدًا كبيرًا، قامت بتطوير خط إنتاج أوتوماتيكي بالكامل مخصص لإنتاج هذا النوع من الخبز."
 },
 "image": "/Tanour.png",
 "machines": [

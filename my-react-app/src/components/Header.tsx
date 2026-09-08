@@ -109,7 +109,7 @@ export default function Header() {
 
           {/* Phone */}
           <a
-            href="tel:+9615433772"
+            href="tel:+9613714499"
             className="icon-btn"
             aria-label="Call us"
           >
@@ -129,7 +129,7 @@ export default function Header() {
 
           {/* Email */}
           <a
-            href="mailto:info@bakrico.com"
+            href="mailto:alihamza637376@gmail.com"
             className="icon-btn"
             aria-label="Email us"
           >
